@@ -14,7 +14,7 @@ $python ebay-dl.py
 <br />
 Examples:
 <br />
-1. For my file 'rtx 3080.json' and 'rtx 3080.csv':
+For my file 'rtx 3080.json' and 'rtx 3080.csv':
 <br />
 ```
 $python ebay-dl.py 
