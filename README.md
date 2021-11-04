@@ -17,11 +17,11 @@ $python ebay-dl.py
 1. For my file 'rtx 3080.json' and 'rtx 3080.csv':
 <br />
 ```
-$python ebay-dl.py 'rtx 3080'
+$python ebay-dl.py "rtx 3080"
 ```
 <br />
 and
 ```
-$python ebay-dl.py 'rtx 3080' --csv 1
+$python ebay-dl.py "rtx 3080" --csv 1
 ```
 2. 
