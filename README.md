@@ -33,6 +33,10 @@ $python ebay-dl.py 'The Conquest of Bread'
 ```
 $python ebay-dl.py 'The Conquest of Bread' --csv 1
 ```
-***Side Notes**
+<br />
+***Side Notes:**
 1. The `--csv` command appears to indicate that the file will be made into a CSV file; the value behind it must be added and must be truthy (i.e anything numeric but 0) for it to work
 2. Rmember to quote your search term when entering to avoid error
+<br />
+
+[The Course Project](https://github.com/mikeizbicki/cmc-csci040/blob/2021fall/hw_03/README.md)
