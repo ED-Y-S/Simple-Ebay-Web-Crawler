@@ -2,7 +2,7 @@
 ![Web Crawler](https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Web_Crawler.jpg)
 <br />
 <br />
-The `ebay-dl.py` is tiny Python file that allows you to (although only simply) web-crawl the sepcific good that you are interested on Ebay, downloading the first ten pages of the good's search result, going through each element of the good (name, price, shipping fee, if it is free-return, quality status, and quantity sold), and converting them into a JSON or CSV file with the name of your search term and sorted by the said elements.
+The `ebay-dl.py` is tiny Python file that allows you to (although only simply) web-crawl the sepcific good that you are interested on Ebay, downloading the first ten pages of the good's search result, going through each element of the good (name, price in cents, shipping fee in cents, if it is free-return, quality status, and quantity sold), and converting them into a JSON or CSV file with the name of your search term and sorted by the said elements.
 <br />
 <br />
 To use this file, you will need to open `ebay-dl.py` in a compitabible programming editor, change the working directory to which where you save the file, and use the following command in the terminal:
