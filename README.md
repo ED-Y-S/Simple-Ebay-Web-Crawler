@@ -21,25 +21,25 @@ $python ebay-dl.py "search term" --csv 1
 $python ebay-dl.py 'rtx 3080'
 ```
 ```
-$python ebay-dl.py 'rtx 3080' --csv 1
+$python ebay-dl.py 'rtx 3080' --csv
 ```
 2. For my files 'Sennheiser.json' and 'Sennheiser.csv':
 ```
 $python ebay-dl.py 'Sennheiser'
 ```
 ```
-$python ebay-dl.py 'Sennheiser' --csv 1
+$python ebay-dl.py 'Sennheiser' --csv
 ```
 3. For my files 'The Conquest of Bread.json' and 'The Conquest of Bread.csv':
 ```
 $python ebay-dl.py 'The Conquest of Bread'
 ```
 ```
-$python ebay-dl.py 'The Conquest of Bread' --csv 1
+$python ebay-dl.py 'The Conquest of Bread' --csv
 ```
 
 ***Side Notes:***
-1. Typing the `--csv` command a space after the search term to indicate that the file will be created into a CSV file instead of a JSON file; the value behind `--csv` must be added and must be truthy (i.e anything numeric but 0) for it to work.
+1. Typing the `--csv` command a space after the search term to indicate that the file will be created into a CSV file instead of a JSON file.
 2. Rmember to quote your search term when entering to avoid error that might be caused by a space in between words.
 3. By default, `ebay-dl.py` only goes through the first ten pages of the search results on Ebay. However, you may add `--page_number` behind the search term (before `--csv` if you have it) with the amount of pages you want one space behind it.
 <br />
