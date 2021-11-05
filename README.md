@@ -12,7 +12,7 @@ $python ebay-dl.py "search term"
 ```
 or
 ```
-$python ebay-dl.py "search term" --csv 1
+$python ebay-dl.py "search term" --csv 
 ```
 **Examples**:
 
