@@ -44,4 +44,3 @@ $python ebay-dl.py 'The Conquest of Bread' --csv
 3. By default, `ebay-dl.py` only goes through the ***first ten*** pages of the search results on Ebay. However, you may add `--page_number` behind the search term (before `--csv` if you have it) with the amount of pages you want one space behind it.
 <br />
 
-[The Course Project](https://github.com/mikeizbicki/cmc-csci040/blob/2021fall/hw_03/README.md)
